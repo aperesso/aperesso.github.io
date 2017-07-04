@@ -1,12 +1,14 @@
 doctype html
-html
+html(lang='en')
 	head
-		title Alexia
-		//link(rel='stylesheet', href='/stylesheets/css/style.css')
+		title sketch
+		link(rel="stylesheet" type="text/css" href="stylesheets/css/style.css")
+		meta(name="viewport" content="width=device-width")
 	body
-		header
-			p My soon to be menu
-		section
-			p this is a pug test
-		footer
-			p cool footer
+		// #loader-wrapper
+		// #loader 
+		#presentation
+			.txt
+				p You should definitly hover me
+		script(src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/p5.js")
+		script(src="scripts/hello_steering.js")

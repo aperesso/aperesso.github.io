@@ -1,0 +1,57 @@
+#loader-wrapper
+	position: fixed
+	top: 0
+	left: 0
+	width: 100%
+	height: 100%
+	z-index: 1000
+	background-color: #ffffff
+
+#loader
+	display: block
+	position: relative
+	left: 50%
+	top: 50%
+	height: 50px
+	width: 50px
+	z-index: 1500
+	border-radius: 40%
+	border: 5px solid #E4E4E4
+	border-left: 5px solid coral
+	margin: -25px 0 0 -25px
+	animation: blop 0.5s linear infinite
+	-webkit-animation: blop 0.5s linear infinite
+
+@-webkit-keyframes blop
+	0%
+		-webkit-transform: rotate(0deg)
+		transform: rotate(0deg)
+		-moz-animation: rotate(0deg)
+		border-left: 5px solid #ffd27f
+	50%
+		-webkit-transform: rotate(180deg)
+		transform: rotate(180deg)
+		-moz-animation: rotate(180deg)
+		border-left: 5px solid #ffb732
+	100%
+		-webkit-transform: rotate(360deg)
+		transform: rotate(360deg)
+		-moz-transform: rotate(360deg)
+		border-left: 5px solid #ffd27f
+
+@keyframes blop
+	0%
+		-webkit-transform: rotate(0deg)
+		transform: rotate(0deg)
+		-moz-animation: rotate(0deg)
+		border-left: 5px solid #ffd27f
+	50%
+		-webkit-transform: rotate(180deg)
+		transform: rotate(180deg)
+		-moz-animation: rotate(180deg)
+		border-left: 5px solid #ffb732
+	100%
+		-webkit-transform: rotate(360deg)
+		transform: rotate(360deg)
+		-moz-transform: rotate(360deg)
+		border-left: 5px solid #ffd27f
