@@ -1,0 +1,25 @@
+@keyframes text_animate {
+	0% {
+		opacity: 0.3;
+	}
+	50% {
+		opacity: 0.5;
+	}
+			100% {
+		opacity: 0.3;
+	}
+}
+
+.loader {
+	color: #FAFAFA;
+
+	h3 {
+		position: absolute;
+		left: 50vW;
+		transform: translateX(-50%);
+		bottom: 30vH;
+		letter-spacing: 5px;
+		animation: text_animate 1s infinite alternate;
+		font-family: 'Inconsolata', monospace;
+	}
+}

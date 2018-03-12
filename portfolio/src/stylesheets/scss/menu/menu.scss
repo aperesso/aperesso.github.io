@@ -1,0 +1,66 @@
+.menu {
+	position: fixed;
+	z-index: 1000;
+	width: 50px;
+	top: 20px;
+	right: 20px;
+}
+
+.menu_panel {
+	position: fixed;
+	width: 100vW;
+	height: 100vH;
+	background: black;
+	opacity: 0.9;
+	left: 100vW;
+	z-index: 999;
+
+	.menu_left_wrapper {
+		position: absolute;
+		//text-align: center;
+		top: 50vH;
+		transform: translateY(-50%);
+
+		h2 {
+			margin-left: 10vW;
+			color: white;
+			font-family: 'Poiret One', cursive;
+			margin-bottom: 10vH;
+		}
+	}
+
+	.vl {
+		position: absolute;
+		border-left: 1px solid white;
+		height: 80vH;
+		left: 40vW;
+		top: 10vH;
+		opacity: 0.6;
+	}
+
+	.menu_project_wrapper{
+		position: absolute;
+		//top: 10vH;
+		left: 60vW;
+		width: 40vW;
+		color: white;
+		font-family: 'Poiret One', cursive;
+
+		.projects {
+			text-decoration: underline;
+			font-family: 'Raleway', sans-serif;
+		}
+
+
+		.project_content{
+			position: absolute;
+			top: 50vH;
+			transform: translateY(-50%);
+
+			h2 {
+				margin-bottom: 10vH;
+			}
+		}
+	}
+
+}

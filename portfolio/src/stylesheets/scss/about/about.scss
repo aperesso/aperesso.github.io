@@ -1,0 +1,52 @@
+.About {
+	width: 100vW;
+	min-height: 100vH;
+	overflow: hidden;
+	background: #ffffff;
+
+	.about {
+
+		position: absolute;
+		width: 50vW;
+		height: 100%;
+
+
+		h2 {
+			margin-top: 5vH;
+			text-align: center;
+			margin-bottom: 7vH;
+			font-family: 'Raleway', sans-serif;
+			color: #e2264f;
+		}
+
+		h4 {
+			position: absolute;
+			margin-left: 5vW;
+			margin-right: 5vW;
+			bottom: 5vH;
+			text-align: center;
+			font-family: 'Raleway', sans-serif;
+			color: #e2264f;
+		}
+
+		.qa_wrapper{
+
+			margin-bottom: 6vh;
+
+			p {
+				margin-left: 3vW;
+				margin-right: 1vW;
+				color: black;
+				position: relative;
+				font-family: 'Poiret One', cursive;
+				//text-align: center;
+			}
+
+			p::first-letter{
+				font-weight: bold;
+				color: #e2264f;
+			}
+		}
+	}
+
+}

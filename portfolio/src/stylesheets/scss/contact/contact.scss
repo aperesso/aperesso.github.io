@@ -1,0 +1,18 @@
+.Contact {
+	width: 100vW;
+	height: 100vH;
+	background: #56202D;
+
+	._contact {
+		position: absolute;
+		left: 25vW;
+	}
+
+	.mail {
+		width: 5vW;
+		position: absolute;
+		bottom: 25vH;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+}
